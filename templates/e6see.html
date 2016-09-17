@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head></head>
+   <body>
+      
+      <table>
+         <thead>
+            <tr>
+               <th>Name</th>
+               <th>Last Name</th>
+               <th>Place</th>
+               <th>Phone No</th>
+               
+            </tr>
+         </thead>
+         
+         <tbody>
+            {% for experis8 in experi8 %}
+               <tr>
+                  <td>{{ experis8.name }}</td>
+                  <td>{{ experis8.last }}</td>
+                  <td>{{ experis8.place }}</td>
+                  <td>{{ experis8.phone }}</td>
+                  
+               </tr>
+            {% endfor %}
+         </tbody>
+      </table>
+      
+   </body>
+</html>

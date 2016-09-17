@@ -1,0 +1,21 @@
+{% extends 'bootstrap/base.html' %}
+<!DOCTYPE html>
+<html lang = "en">
+   <head></head>
+   <body>
+   {% block content %}
+   <div class="jumbotron">
+   <div class="text-center">
+   <h3> A New Guest Has Been Added In Your Guest List</h3>
+   <p><a class="btn btn-primary btn-lg" href="{{url_for('guest')}}" role="button">Add More</a></p>
+   <p>want To See Your Guest List</p>
+   <p><a class="btn btn-primary btn-lg" href="{{url_for('see')}}" role="button">See Here</a></p>
+</div>
+</div>
+{% endblock %}
+   
+     
+        
+        
+    </body>
+</html>      
