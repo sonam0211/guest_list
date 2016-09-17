@@ -1,2 +1,2 @@
 # guest_list
-List of guests
+List of guests coming to my party.
