@@ -15,7 +15,6 @@ class experi8(db.Model):
    last  = db.Column(db.String(50))
    place = db.Column(db.String(200)) 
    phone = db.Column(db.Integer) 
-   
 
    def __init__(self, name, last , place , phone):
       self.name = name
