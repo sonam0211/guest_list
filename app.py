@@ -9,6 +9,8 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///experi8.sqlite3'
 
 db = SQLAlchemy(app)
 
+// Comment
+
 class experi8(db.Model):
    id = db.Column('guest_id', db.Integer, primary_key = True)
    name = db.Column(db.String(100))
