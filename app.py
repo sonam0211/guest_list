@@ -22,6 +22,7 @@ class experi8(db.Model):
       self.last = last
       self.place = place
       self.phone = phone
+      # jkk
       
 
 
