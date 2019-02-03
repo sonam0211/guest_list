@@ -9,6 +9,10 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///experi8.sqlite3'
 
 //1211asasasdasdsa
 
+console.log(121)12
+wowow
+wew
+
 db = SQLAlchemy(app)
 
 class experi8(db.Model):
