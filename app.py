@@ -7,7 +7,7 @@ app = Flask(__name__)
 bootstrap = Bootstrap(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///experi8.sqlite3'
 
-//asas
+//asasasdasdsa
 
 db = SQLAlchemy(app)
 
